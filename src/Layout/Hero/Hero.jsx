@@ -28,12 +28,13 @@ const Hero = () => {
                 className="mySwiper"
             >
                 {
-                    swipers.map(swiper => <SwiperSlide
+                    swipers.map(swiper => 
+                    <SwiperSlide
                         key={swiper.id}>
                         <div className="relative">
                             <img className='w-full' src={swiper?.img} alt="Myanmar" />
-                            <div className="absolute lg:top-1/2 md:top-2/3 top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-black text-center md:space-y-3 bg-white bg-opacity-70 px-3 py-2 rounded">
-                                <h2 className="text-sm md:text-3xl lg:text-6xl font-bold">{swiper?.title}</h2>
+                            <div className="absolute lg:top-1/2 md:top-2/3 top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-black text-center md:space-y-3 px-3 py-2 rounded-2xl bg-white bg-opacity-20">
+                                <h2 className="text-sm md:text-3xl lg:text-6xl font-bold ">{swiper?.title}</h2>
                                 <p className="text-[10px] md:text-xl lg:text-2xl">{swiper?.details}</p>
                             </div>
                         </div>
