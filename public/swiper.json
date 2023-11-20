@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "img": "https://i.ibb.co/p3bSH0S/swiper-1.jpg",
+        "title": "Highly Rated Charities",
+        "details": "They're trusted for their measurable results, low administrative costs, and often receive top ratings from independent evaluators, earning public recognition for their effective social contributions."
+    },
+    {
+        "id": "2",
+        "img": "https://i.ibb.co/JkgyK69/swiper-2.jpg",
+        "title": "It is toughest to be a child.",
+        "details":"TODAY YOUR GIFT GETS MATCHED 5X TO HELP 5X MORE CHILDREN AT RISK"
+    },
+    {
+        "id": "3",
+        "img": "https://i.ibb.co/tL49Qwg/swiper-3.jpg",
+        "title": "We are Rethink Mental Illness",
+        "details": "Our goal is to make sure everyone severely affected by mental illness has a good quality of life."
+    },
+    {
+        "id": "4",
+        "img": " https://i.ibb.co/17hb6wq/swiper-4.jpg",
+        "title": "Good that grows",
+        "details": "Sponsoring a child provides them with the opportunity to see beyond their daily struggles"
+    }
+]

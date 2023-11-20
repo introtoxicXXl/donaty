@@ -34,7 +34,7 @@ const StaggeredDropDown = () => {
                         initial={wrapperVariants.closed}
                         variants={wrapperVariants}
                         style={{ originY: "top", translateX: "-70%" }}
-                        className="flex flex-col gap-2 p-2 rounded-lg bg-white shadow-xl absolute top-[120%]  overflow-hidden left-0 w-80"
+                        className="flex flex-col gap-2 p-2 rounded-lg glass shadow-xl absolute top-[120%]  overflow-hidden left-0 w-80"
                     >
                         <Link to='/'><Option setOpen={setOpen} Icon={FiHome} text="Home" /></Link>
                         <Link to='/about'><Option setOpen={setOpen} Icon={FcAbout} text="About Us" /></Link>
@@ -55,7 +55,7 @@ const Option = ({ text, Icon, setOpen }) => {
         <motion.li
             variants={itemVariants}
             onClick={() => setOpen(false)}
-            className="flex items-center gap-2 w-full p-2 text-xs font-medium whitespace-nowrap rounded-md hover:bg-indigo-100 text-slate-700 hover:text-indigo-500 transition-colors cursor-pointer"
+            className="flex items-center gap-2 w-full p-2 text-xs font-medium whitespace-nowrap rounded-md text-slate-900  transition-colors cursor-pointer"
         >
             <motion.span variants={actionIconVariants}>
                 <Icon />

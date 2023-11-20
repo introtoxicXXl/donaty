@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import Card from "../component/Card/Card";
+import { Helmet } from "react-helmet-async";
+import Hero from "../Layout/Hero/Hero";
 
 
 const Home = () => {
@@ -12,10 +13,12 @@ const Home = () => {
 
     return (
         <div>
-        
-            {
-                cards.map(card => <Card key={card.id} card={card}></Card>)
-            }
+            <Helmet>
+                <title>Donaty</title>
+            </Helmet>
+            <Hero></Hero>
+
+
         </div>
     );
 };

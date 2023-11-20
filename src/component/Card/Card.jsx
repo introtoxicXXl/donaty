@@ -1,14 +1,14 @@
-import React from 'react';
+import { PropTypes } from 'prop-types';
 
 const Card = ({ card }) => {
     const { img, charity_name, charity_details, additional_topic, additional_details } = card;
     return (
-        <div>
-        <img src={img} alt="" />
-        <h1>{charity_name}</h1>
-        <p>{additional_details}</p>
-        </div>
+  
     );
+};
+
+Card.propTypes = {
+    card: PropTypes.object,
 };
 
 export default Card;
