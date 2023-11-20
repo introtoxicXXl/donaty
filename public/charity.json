@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "country": "Syria",
+        "amount": 5000,
+        "img": "https://i.ibb.co/rp02hWD/syria.jpg",
+        "charity_name": "Relief for Syria",
+        "charity_details": "Relief for Syria is dedicated to providing humanitarian aid to the people affected by the ongoing crisis in Syria. Our mission is to deliver food, medical supplies, and shelter to those in need. We work tirelessly to support displaced families and rebuild communities devastated by conflict.",
+        "additional_topic": "Education programs for refugee children",
+        "additional_details": "Civil war is having a growing impact on childrens education, healthcare and living conditions. UNICEF estimates that among the 6 million displaced people in Syria, half are children. SOS Childrens Villages works to help get children, such as this boy in Damascus, back to school.  The mother of a 7-year-old helped by SOS Childrens Villages says her son “started waking up in the morning on his own and has returned to school. He is now doing his homework regularly and is happier.”"
+    },
+    {
+        "id": 2,
+        "country": "Yemen",
+        "amount": 7000,
+        "img": "https://i.ibb.co/V93gM1g/yemen.jpg",
+        "charity_name": "Yemen Aid Foundation",
+        "charity_details": "Yemen Aid Foundation is committed to assisting the Yemeni population suffering from conflict and famine. Our efforts focus on providing healthcare services, clean water, and nutritional support to vulnerable communities. We aim to alleviate the suffering and promote long-term sustainable development.",
+        "additional_topic": "Women empowerment initiatives",
+        "additional_details": "Women empowerment initiatives encompass various programs and strategies aimed at uplifting women socially, economically, and politically. These initiatives recognize the inherent rights of women and strive to create an environment where they can actively participate in and contribute to society.This includes initiatives such as microfinance programs, entrepreneurship training, and support for women-owned businesses.  Economic empowerment enables women to generate income, gain financial independence, and support their families, thereby breaking the cycle of poverty.Raising awareness about gender equality issues through advocacy campaigns, workshops, and community engagement plays a crucial role."
+    },
+    {
+        "id": 3,
+        "country": "Afghanistan",
+        "amount": 4500,
+        "img": "https://i.ibb.co/vjX8s8j/afghanistan.jpg",
+        "charity_name": "Hope for Afghanistan",
+        "charity_details": "Hope for Afghanistan strives to bring hope and relief to the people affected by violence and instability. We provide emergency aid, shelter, and education to children affected by conflict. Our goal is to rebuild communities and empower individuals for a brighter future.",
+        "additional_topic": "We Start Vocational Training for Youth in Afghanistan",
+        "additional_details": "In Afghanistan, vocational training programs for youth play a pivotal role in addressing unemployment, fostering skill development, and promoting socio-economic stability. These initiatives focus on equipping young individuals with practical skills and knowledge necessary for employment opportunities within various sectors. Given the country's history of conflict and challenges in education and employment, vocational training serves as a crucial pathway for empowering the youth.  Here's an elaboration on these initiatives.The training curriculum is designed in collaboration with industry experts and employers to align with current market demands. This ensures that graduates possess skills that are directly applicable and in demand within the workforce. Vocational training institutions often provide career counseling, job placement assistance, and ongoing support to help graduates transition smoothly into the workforce or higher education."
+    },
+    {
+        "id": 4,
+        "country": "Somalia",
+        "amount": 6000,
+        "img": "https://i.ibb.co/5x252Qp/Somalia.jpg",
+        "charity_name": "Somalia Relief Initiative",
+        "charity_details": "Somalia Relief Initiative is dedicated to supporting communities affected by drought, famine, and conflict. We focus on delivering food assistance, healthcare services, and livelihood support. Our aim is to bring stability and hope to the people of Somalia.",
+        "additional_topic": "Livestock support for pastoral communities",
+        "additional_details": "Livestock support initiatives focus on providing veterinary care, vaccinations, and medicines to ensure the health and well-being of the animals. This includes preventive healthcare measures to control diseases and improve the overall productivity of the livestock.Providing pastoral communities with access to quality breeds of animals, improved feeds, and proper shelter facilities is essential.  These resources enhance the quality of the livestock, resulting in better yields of products such as milk, meat, and wool.ducting community members about modern livestock management practices, including breeding techniques, disease prevention, and proper nutrition, is vital."
+    },
+    {
+        "id": 5,
+        "country": "South Sudan",
+        "amount": 5500,
+        "img": "https://i.ibb.co/qkqgVMq/jeshamer2.webp",
+        "charity_name": "South Sudan Hope Foundation",
+        "charity_details": "South Sudan Hope Foundation is committed to providing aid to the vulnerable populations affected by conflict and food insecurity. We offer food relief, healthcare, and education support to displaced families and children. Our mission is to restore hope and rebuild lives.",
+        "additional_topic": "Community agriculture projects",
+        "additional_details": "Provide comprehensive training and capacity-building programs for local farmers. Focus on modern and sustainable agricultural practices, including soil conservation, crop rotation, pest management, and water-efficient techniques.Ensure access to quality seeds, fertilizers, and farming tools to improve crop yields. Implement small-scale irrigation systems or rainwater harvesting techniques to ensure consistent water availability for crops, especially during dry seasons. Water resource management is vital for agricultural sustainability.Facilitate connections between farmers and markets, ensuring fair pricing and access to larger marketplaces. Strengthen market linkages and explore value addition opportunities for agricultural produce. Implement a robust monitoring and evaluation system to assess the impact of the projects, measure progress, and make informed decisions for continuous improvement and sustainability."
+    },
+    {
+        "id": 6,
+        "country": "Venezuela",
+        "amount": 4800,
+        "img": "https://i.ibb.co/wycfY8j/venezuelan.jpg",
+        "charity_name": "Aid for Venezuela",
+        "charity_details": "Aid for Venezuela is dedicated to assisting communities facing humanitarian crises by providing food, medical aid, and essential supplies. We work to alleviate suffering and support those affected by the economic and political challenges in the country.we have successfully sent 57 boxes weighing 70-80 lbs each with food and medical supplies. Every box has arrived safely in the hands of the families and non-profit organizations we are helping.  On the other hand, I am sad to say the overall situation has gotten worse in Venezuela. Although Venezuelans are risking their lives to conduct daily demonstrations that have lasted weeks, violent crime, poverty, and malnutrition is at an all-time high. The Venezuelan Health Ministry says child mortality has also jumped 30% in the last year.",
+        "additional_topic": "Healthcare infrastructure support",
+        "additional_details": "Healthcare infrastructure support in Venezuela is critical due to the challenges faced by the healthcare system in recent years. Focus on rebuilding and renovating healthcare facilities, including hospitals, clinics, and primary health centers. This involves repairing infrastructure damage, ensuring a consistent power supply, upgrading medical equipment, and improving sanitation facilities.Provide essential medical supplies, medications, and modern medical equipment to healthcare facilities. Ensure consistent availability of pharmaceuticals, diagnostic tools, surgical instruments, and other necessary medical resources.Introduce telemedicine initiatives and incorporate technological advancements to improve healthcare access, especially in remote or underserved areas. This can include teleconsultation services, digital health records, and mobile health applications."
+    },
+    {
+        "id": 7,
+        "country": "Myanmar",
+        "amount": 5100,
+        "img": "https://i.ibb.co/sjQ5F2n/myanmar.jpg",
+        "charity_name": "Myanmar Relief Foundation",
+        "charity_details": "Myanmar Relief Foundation aims to provide emergency aid and support to communities affected by conflicts and natural disasters in Myanmar. We offer humanitarian assistance, healthcare services, and educational programs for vulnerable populations.Five years after the mass exodus of Rohingya people from Myanmar, their future looks as uncertain as ever. Uprooted from their homeland by a campaign of targeted violence launched by the Myanmar military in August 2017, some 700,000 ethnic Rohingya refugees sought safety just across the border in Bangladesh. They joined thousands of others from the community who had fled earlier episodes of violence and abuse. Today there are nearly one million Rohingya living in overcrowded camps in Cox’s Bazar—now the largest refugee settlement in the world. We provide those for Rohingya.",
+        "additional_topic": "Refugee resettlement programs",
+        "additional_details": "As of our last update in January 2022, Myanmar has been experiencing a refugee crisis, particularly with the Rohingya minority group, resulting in the displacement of thousands of individuals. We establish safe and well-equipped resettlement centers or camps that adhere to international standards.  These facilities should provide shelter, clean water, sanitation facilities, healthcare services, and educational opportunities.We Assist refugees in obtaining legal documentation and status recognition, which is crucial for their access to basic rights, employment, education, and healthcare. Provide legal aid and guidance through the resettlement process.Assist refugees in obtaining legal documentation and status recognition, which is crucial for their access to basic rights, employment, education, and healthcare. Provide legal aid and guidance through the resettlement process. We develop long-term strategies that focus on the future prospects and self-reliance of refugees."
+    },
+    {
+        "id": 8,
+        "country": "Iraq",
+        "amount": 5200,
+        "img": "https://i.ibb.co/NrxS5r8/iraq.webp",
+        "charity_name": "Iraq Humanitarian Aid",
+        "charity_details": "Iraq Humanitarian Aid focuses on providing emergency relief and long-term assistance to those affected by conflict and displacement. We deliver essential supplies, healthcare services, and livelihood support to rebuild communities and restore hope.",
+        "additional_topic": "Psychosocial support for trauma victims",
+        "additional_details": "Providing psychosocial support for trauma victims in Iraq is crucial, especially considering the impact of conflict, displacement, and violence on individuals' mental health.Offer individual and group counseling sessions conducted by trained mental health professionals.  These sessions can help trauma victims address their emotional distress, manage anxiety, and cope with traumatic experiences.Train frontline responders, community leaders, and volunteers in delivering psychological first aid. PFA focuses on providing immediate and practical support to individuals in distress, promoting safety, calmness, and coping strategies.Establish support groups where trauma survivors can share experiences, receive peer support, and build a sense of community. Provide training programs for local mental health professionals, healthcare workers, and community leaders on trauma-informed care, psychological support techniques, and identifying mental health concerns."
+    },
+    {
+        "id": 9,
+        "country": "Haiti",
+        "amount": 4900,
+        "img": "https://i.ibb.co/Y0217cC/haiti.jpg",
+        "charity_name": "Hope for Haiti",
+        "charity_details": "Hope for Haiti is committed to rebuilding communities devastated by natural disasters and poverty. We provide disaster relief, education, healthcare, and infrastructure support to improve the lives of Haitians and promote sustainable development.The organization works to improveHealthcare Initiatives, Education Programs, Clean Water and Sanitation, Community Development, Emergency Response and Disaster Relief,Community Development.In an effort to help with the terrible disaster that devastated Haiti on January 12th Gable Building Corp is collecting money at our office for Hope for Haiti. 100% of all donations will go directly to a disaster relief team currently on the ground.",
+        "additional_topic": "Clean water and sanitation projects",
+        "additional_details": "Implementing clean water and sanitation projects in Haiti is crucial for addressing health challenges and improving overall living conditions.  Identify and develop clean and sustainable water sources, including wells, boreholes, protected springs, or rainwater harvesting systems. Ensure these sources are accessible and safe for communities to use.Implement water treatment systems such as filtration, chlorination, or solar disinfection to make water safe for consumption.  Provide training on water treatment methods and promote safe storage practices at the household level. Construct and improve sanitation facilities like latrines, toilets, and handwashing stations in communities, schools, and healthcare centers. Promote proper sanitation and hygiene practices to prevent waterborne diseases.Provide training for healthcare workers and community health workers on hygiene promotion, disease prevention, and the importance of clean water and sanitation in improving health outcomes.Build local capacity by training technicians and community members in the maintenance and repair of water and sanitation facilities."
+    },
+    {
+        "id": 10,
+        "country": "Nigeria",
+        "amount": 5300,
+        "img": "https://i.ibb.co/N7x4q9F/nijeria.jpg",
+        "charity_name": "Nigeria Relief Fund",
+        "charity_details": "Nigeria Relief Fund aims to alleviate the suffering of people affected by conflict, poverty, and displacement. We provide humanitarian aid, education support, and livelihood programs to empower communities and build resilience.Play your part and donate to the Nigeria Solidarity Support Fund (NSSF) to help boost the countrys COVID-19 relief response and rebuild Nigeria for a stronger, more united post-COVID future.",
+        "additional_topic": "Empowerment of marginalized groups",
+        "additional_details": "Empowering marginalized groups in Nigeria involves initiatives that aim to address social inequalities, promote inclusivity, and provide opportunities for marginalized communities to participate fully in social, economic, and political spheres. Here are key components and approaches.Ensure equitable access to quality education for marginalized groups, including girls, children from minority communities, and those in remote areas. Establish schools, provide scholarships, and offer vocational training programs tailored to their needs.Create job placement programs, apprenticeships, and support networks to facilitate their entry into the workforce.Offer specialized training, assistive devices, and advocate for the rights of persons with disabilities.Improve healthcare services tailored to the needs of marginalized groups, ensuring accessibility, affordability, and culturally sensitive care. Conduct health awareness campaigns and provide services addressing specific health challenges these groups face."
+    }
+]
