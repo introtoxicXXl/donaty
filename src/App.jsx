@@ -1,6 +1,9 @@
 import { Outlet } from 'react-router-dom'
 import './App.css'
 import NavBar from './component/NavBar/NavBar'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 function App() {
 
@@ -11,5 +14,6 @@ function App() {
     </div>
   )
 }
+AOS.init();
 
 export default App

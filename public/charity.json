@@ -2,7 +2,8 @@
     {
         "id": 1,
         "country": "Syria",
-        "amount": 5000,
+        "amount": 1100,
+        "target_amount":10600,
         "img": "https://i.ibb.co/rp02hWD/syria.jpg",
         "charity_name": "Relief for Syria",
         "charity_details": "Relief for Syria is dedicated to providing humanitarian aid to the people affected by the ongoing crisis in Syria. Our mission is to deliver food, medical supplies, and shelter to those in need. We work tirelessly to support displaced families and rebuild communities devastated by conflict.",
@@ -12,7 +13,8 @@
     {
         "id": 2,
         "country": "Yemen",
-        "amount": 7000,
+        "amount": 700,
+        "target_amount":12500,
         "img": "https://i.ibb.co/V93gM1g/yemen.jpg",
         "charity_name": "Yemen Aid Foundation",
         "charity_details": "Yemen Aid Foundation is committed to assisting the Yemeni population suffering from conflict and famine. Our efforts focus on providing healthcare services, clean water, and nutritional support to vulnerable communities. We aim to alleviate the suffering and promote long-term sustainable development.",
@@ -22,7 +24,8 @@
     {
         "id": 3,
         "country": "Afghanistan",
-        "amount": 4500,
+        "amount": 600,
+        "target_amount":15000,
         "img": "https://i.ibb.co/vjX8s8j/afghanistan.jpg",
         "charity_name": "Hope for Afghanistan",
         "charity_details": "Hope for Afghanistan strives to bring hope and relief to the people affected by violence and instability. We provide emergency aid, shelter, and education to children affected by conflict. Our goal is to rebuild communities and empower individuals for a brighter future.",
@@ -32,7 +35,8 @@
     {
         "id": 4,
         "country": "Somalia",
-        "amount": 6000,
+        "amount": 500,
+        "target_amount":10600,
         "img": "https://i.ibb.co/5x252Qp/Somalia.jpg",
         "charity_name": "Somalia Relief Initiative",
         "charity_details": "Somalia Relief Initiative is dedicated to supporting communities affected by drought, famine, and conflict. We focus on delivering food assistance, healthcare services, and livelihood support. Our aim is to bring stability and hope to the people of Somalia.",
@@ -42,7 +46,8 @@
     {
         "id": 5,
         "country": "South Sudan",
-        "amount": 5500,
+        "amount": 550,
+        "target_amount":16200,
         "img": "https://i.ibb.co/qkqgVMq/jeshamer2.webp",
         "charity_name": "South Sudan Hope Foundation",
         "charity_details": "South Sudan Hope Foundation is committed to providing aid to the vulnerable populations affected by conflict and food insecurity. We offer food relief, healthcare, and education support to displaced families and children. Our mission is to restore hope and rebuild lives.",
@@ -52,7 +57,8 @@
     {
         "id": 6,
         "country": "Venezuela",
-        "amount": 4800,
+        "amount": 580,
+        "target_amount":10000,
         "img": "https://i.ibb.co/wycfY8j/venezuelan.jpg",
         "charity_name": "Aid for Venezuela",
         "charity_details": "Aid for Venezuela is dedicated to assisting communities facing humanitarian crises by providing food, medical aid, and essential supplies. We work to alleviate suffering and support those affected by the economic and political challenges in the country.we have successfully sent 57 boxes weighing 70-80 lbs each with food and medical supplies. Every box has arrived safely in the hands of the families and non-profit organizations we are helping.  On the other hand, I am sad to say the overall situation has gotten worse in Venezuela. Although Venezuelans are risking their lives to conduct daily demonstrations that have lasted weeks, violent crime, poverty, and malnutrition is at an all-time high. The Venezuelan Health Ministry says child mortality has also jumped 30% in the last year.",
@@ -62,7 +68,8 @@
     {
         "id": 7,
         "country": "Myanmar",
-        "amount": 5100,
+        "amount": 510,
+        "target_amount":13600,
         "img": "https://i.ibb.co/sjQ5F2n/myanmar.jpg",
         "charity_name": "Myanmar Relief Foundation",
         "charity_details": "Myanmar Relief Foundation aims to provide emergency aid and support to communities affected by conflicts and natural disasters in Myanmar. We offer humanitarian assistance, healthcare services, and educational programs for vulnerable populations.Five years after the mass exodus of Rohingya people from Myanmar, their future looks as uncertain as ever. Uprooted from their homeland by a campaign of targeted violence launched by the Myanmar military in August 2017, some 700,000 ethnic Rohingya refugees sought safety just across the border in Bangladesh. They joined thousands of others from the community who had fled earlier episodes of violence and abuse. Today there are nearly one million Rohingya living in overcrowded camps in Cox’s Bazar—now the largest refugee settlement in the world. We provide those for Rohingya.",
@@ -72,7 +79,8 @@
     {
         "id": 8,
         "country": "Iraq",
-        "amount": 5200,
+        "amount": 820,
+        "target_amount":10600,
         "img": "https://i.ibb.co/NrxS5r8/iraq.webp",
         "charity_name": "Iraq Humanitarian Aid",
         "charity_details": "Iraq Humanitarian Aid focuses on providing emergency relief and long-term assistance to those affected by conflict and displacement. We deliver essential supplies, healthcare services, and livelihood support to rebuild communities and restore hope.",
@@ -82,7 +90,8 @@
     {
         "id": 9,
         "country": "Haiti",
-        "amount": 4900,
+        "amount": 490,
+        "target_amount":18200,
         "img": "https://i.ibb.co/Y0217cC/haiti.jpg",
         "charity_name": "Hope for Haiti",
         "charity_details": "Hope for Haiti is committed to rebuilding communities devastated by natural disasters and poverty. We provide disaster relief, education, healthcare, and infrastructure support to improve the lives of Haitians and promote sustainable development.The organization works to improveHealthcare Initiatives, Education Programs, Clean Water and Sanitation, Community Development, Emergency Response and Disaster Relief,Community Development.In an effort to help with the terrible disaster that devastated Haiti on January 12th Gable Building Corp is collecting money at our office for Hope for Haiti. 100% of all donations will go directly to a disaster relief team currently on the ground.",
@@ -92,7 +101,8 @@
     {
         "id": 10,
         "country": "Nigeria",
-        "amount": 5300,
+        "amount": 530,
+        "target_amount":20600,
         "img": "https://i.ibb.co/N7x4q9F/nijeria.jpg",
         "charity_name": "Nigeria Relief Fund",
         "charity_details": "Nigeria Relief Fund aims to alleviate the suffering of people affected by conflict, poverty, and displacement. We provide humanitarian aid, education support, and livelihood programs to empower communities and build resilience.Play your part and donate to the Nigeria Solidarity Support Fund (NSSF) to help boost the countrys COVID-19 relief response and rebuild Nigeria for a stronger, more united post-COVID future.",

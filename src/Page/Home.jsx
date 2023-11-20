@@ -1,16 +1,11 @@
-import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import Hero from "../Layout/Hero/Hero";
 import WhoWeAre from "../Layout/WhoWeAre/WhoWeAre";
+import OurCampaign from "../Layout/OurCampaign/OurCampaign";
 
 
 const Home = () => {
-    const [cards, setCards] = useState([]);
-    useEffect(() => {
-        fetch('/charity.json')
-            .then(res => res.json())
-            .then(data => setCards(data))
-    }, [])
+
 
     return (
         <div>
@@ -19,8 +14,7 @@ const Home = () => {
             </Helmet>
             <Hero></Hero>
             <WhoWeAre></WhoWeAre>
-
-
+            <OurCampaign></OurCampaign>
         </div>
     );
 };
