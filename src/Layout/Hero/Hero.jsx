@@ -18,7 +18,7 @@ const Hero = () => {
             <Swiper
                 autoHeight={true}
                 autoplay={{
-                    delay: 25000,
+                    delay: 2500,
                     disableOnInteraction: false,
                 }}
                 loop={true}

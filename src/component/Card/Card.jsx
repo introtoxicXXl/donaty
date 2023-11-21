@@ -1,8 +1,8 @@
 import { PropTypes } from 'prop-types';
-import {  useState } from 'react';
+import { useState } from 'react';
 
 const Card = ({ card }) => {
-    const [value, setValue] = useState(0)
+    const [value, setValue] = useState(0);
     const { img, charity_name, amount, target_amount } = card;
     const donationAmount = Math.round((value / 100) * (target_amount - amount) + amount);
 
@@ -10,8 +10,9 @@ const Card = ({ card }) => {
         setValue(parseInt(e.target.value, 10));
     };
 
+
     return (
-        <div className="card bg-base-100 shadow-xl">
+        <div className="card bg-base-100 shadow-xl" data-aos="fade-up" data-aos-duration='800'>
             <figure><img className='h-72 w-full' src={img} alt={charity_name} /></figure>
             <div className="card-body">
                 <h2 className="card-title">{charity_name}</h2>

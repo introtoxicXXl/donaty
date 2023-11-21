@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Hero from "../Layout/Hero/Hero";
 import WhoWeAre from "../Layout/WhoWeAre/WhoWeAre";
 import OurCampaign from "../Layout/OurCampaign/OurCampaign";
+import Testimonials from "../Layout/Testimonials/Testimonials";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
             <Hero></Hero>
             <WhoWeAre></WhoWeAre>
             <OurCampaign></OurCampaign>
+            <Testimonials></Testimonials>
         </div>
     );
 };
