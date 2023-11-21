@@ -10,30 +10,31 @@ const NavProfile = () => {
             .then(res => {
                 console.log(res)
             })
-            .catch(err=>{
+            .catch(err => {
                 console.log(err)
             })
     }
 
     return (
-        <div className="dropdown dropdown-end">
+        <div className="dropdown dropdown-end z-20">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                 <div className=" rounded-full">
                     {
-                        !user.photoURL ? <div className="avatar placeholder">
-                            <div className="bg-neutral text-neutral-content rounded-full w-12">
-                                <span>{name}</span>
-                            </div>
-                        </div>
+                        user.photoURL ? <img src={user.photoURL} />
                             :
-                            <img src={user.photoURL} />
+                            <div className="avatar placeholder">
+                                <div className="bg-neutral text-neutral-content rounded-full w-12">
+                                    <span>{name}</span>
+                                </div>
+                            </div>
+
                     }
                 </div>
             </label>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 <li>
                     <a className="justify-between">
-                        {!user.displayName ? displayName : user.displayName}
+                        {user.displayName ? user.displayName : displayName}
                     </a>
                 </li>
                 <li><a>Available Amount ${donate}</a></li>

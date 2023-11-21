@@ -1,11 +1,18 @@
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import useAuth from './../Hook/hook';
 import SocialUser from "../component/SocialUser/SocialUser";
+import { IoEye, IoEyeOff } from "react-icons/io5";
+import swal from "sweetalert";
+import { useState } from "react";
 
 
 const Registration = () => {
     const { handleSignIn, updateUser } = useAuth();
+    const [check, setCheck] = useState(false)
+    const location = useLocation();
+    const navigate = useNavigate();
+
 
     const handleRegistration = e => {
         e.preventDefault();
@@ -14,23 +21,37 @@ const Registration = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
 
+
+        if (password.length < 6) {
+            swal('Opps', 'Password Must Be 6 Character', 'error');
+            return;
+        }
+
+        if (!/[A-Z]/.test(password)) {
+            swal('Opps', 'Password Must Be Minimum 1 Capital Letter', 'error');
+            return;
+        }
+        if (!/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(password)) {
+            swal('Opps', 'Password Must Be 1 Special Character', 'error');
+            return;
+        }
+
+
         handleSignIn(email, password)
             .then(res => {
-                console.log(res.user)
+                
+                navigate(location?.state ? location.state : '/')
                 updateUser(name, url)
-                    .then((res) => {
-                        console.log(res)
+                    .then(() => {
+
                     })
                     .catch(err => {
-
+                        swal('Opps', `${err.message}`, 'error');
                     })
             })
             .catch(err => {
-                console.log(err)
+                swal('Opps', `${err.message}`, 'error');
             })
-
-
-
     }
 
 
@@ -80,21 +101,24 @@ const Registration = () => {
                             <label className="label">
                                 <span className="label-text">Password</span>
                             </label>
-                            <input
-                                type="password"
-                                name="password"
-                                placeholder="Password"
-                                className="input input-bordered"
-                                required
-                            />
+                            <div className=" relative">
+                                <input
+                                    type={check ? "text" : "password"}
+                                    name="password"
+                                    placeholder="password"
+                                    className="input input-bordered "
+                                    required
+                                />
+                                <span className="absolute top-1/3 right-3 cursor-pointer" onClick={() => setCheck(!check)}>{check ? <IoEyeOff /> : <IoEye />}</span>
+                            </div>
                             <label className="label">
-                                <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                                <a className="label-text-alt link link-hover">Forgot password?</a>
                             </label>
                         </div>
                         <div className="form-control mt-6">
-                            <button type="submit" className="btn btn-info text-white">Login</button>
+                            <button type="submit" className="btn btn-info text-white">Registration</button>
                         </div>
-                        <p>Already have an account? <Link to='/login' className="hover:underline text-info">Login</Link></p>
+                        <p className="mt-3 text-sm text-center">Already have an account? <Link to='/login' className="hover:underline text-info">Login</Link></p>
                     </form>
                     <SocialUser></SocialUser>
                 </div>
