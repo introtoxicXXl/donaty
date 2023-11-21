@@ -6,36 +6,37 @@ import AboutUs from "../Page/AboutUs";
 import Login from "../Page/Login";
 import ErrorPage from "../Page/ErrorPage";
 import CardDetails from "../Page/CardDetails";
+import PrivetRoute from "../Provider/PrivetRoute";
 
 
 const Router = createBrowserRouter([
-    {
-      path: "/",
-      element: <App/>,
-      errorElement:<ErrorPage/>,
-      children:[
-        {
-            path:'/',
-            element:<Home></Home>
-        },
-        {
-            path:'/campaign',
-            element:<Campaign/>
-        },
-        {
-            path:'/about',
-            element:<AboutUs/>
-        },
-        {
-            path:'/login',
-            element:<Login/>
-        },
-        {
-          path:'/campaign/:id',
-          element:<CardDetails/>
-        }
-      ]
-    },
-  ]);
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>
+      },
+      {
+        path: '/campaign',
+        element: <Campaign />
+      },
+      {
+        path: '/about',
+        element: <AboutUs />
+      },
+      {
+        path: '/login',
+        element: <Login />
+      },
+      {
+        path: '/campaign/:id',
+        element: <PrivetRoute><CardDetails /></PrivetRoute>
+      }
+    ]
+  },
+]);
 
 export default Router;
