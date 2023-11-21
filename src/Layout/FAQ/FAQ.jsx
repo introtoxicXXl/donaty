@@ -17,7 +17,7 @@ const FAQ = () => {
             <div className="text-center space-y-6">
                 <Span text='Need Help?'></Span>
                 <h1 className="text-4xl font-semibold">The Answers to All Your Questions</h1>
-                <div className="divider divider-info w-1/12 mx-auto"></div>
+                <div className="divider divider-info w-1/12 mx-auto">*</div>
             </div>
             <div>
                 {

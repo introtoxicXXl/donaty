@@ -22,7 +22,6 @@ const CardDetails = () => {
     const handleRangeChange = (e) => {
         setValue(parseInt(e.target.value, 10));
     };
-    console.log(detail)
     return (
         <div className="hero min-h-screen">
             <div>

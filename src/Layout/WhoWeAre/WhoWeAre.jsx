@@ -21,7 +21,7 @@ const WhoWeAre = () => {
                 <div className="lg:space-y-5 md:space-y-3 space-y-2">
                     <Span text='Who We Are'></Span>
                     <h1 className="lg:text-4xl md:text-2xl font-semibold">We are Non-Profit Charity & NGO Organization</h1>
-                    <div className="divider divider-info w-1/12"></div>
+                    <div className="divider divider-info w-2/12">*</div>
                     <p className="lg:text-xl md:text-base text-sm">Join us and make your life more valuable and useful, be a part of us and contribute to the nation and state and the simplest for the environment and yourself</p>
                     <ul>
                         {

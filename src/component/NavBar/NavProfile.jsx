@@ -1,21 +1,43 @@
+import useAuth from "../../Hook/hook";
 
 const NavProfile = () => {
+    const { user, handleSignOut, donate } = useAuth();
+    const name = user.email.split('')[0].toUpperCase();
+    const displayName = user.email.split('@')[0];
+
+    const handleLogOut = () => {
+        handleSignOut()
+            .then(res => {
+                console.log(res)
+            })
+            .catch(err=>{
+                console.log(err)
+            })
+    }
+
     return (
         <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                <div className="w-10 rounded-full">
-                    <img alt="Tailwind CSS Navbar component" src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                <div className=" rounded-full">
+                    {
+                        !user.photoURL ? <div className="avatar placeholder">
+                            <div className="bg-neutral text-neutral-content rounded-full w-12">
+                                <span>{name}</span>
+                            </div>
+                        </div>
+                            :
+                            <img src={user.photoURL} />
+                    }
                 </div>
             </label>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 <li>
                     <a className="justify-between">
-                        Profile
-                        <span className="badge">New</span>
+                        {!user.displayName ? displayName : user.displayName}
                     </a>
                 </li>
-                <li><a>Settings</a></li>
-                <li><a>Logout</a></li>
+                <li><a>Available Amount ${donate}</a></li>
+                <li onClick={handleLogOut}><a>Logout</a></li>
             </ul>
         </div>
     );

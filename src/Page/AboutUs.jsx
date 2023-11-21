@@ -18,8 +18,8 @@ const AboutUs = () => {
                 <img className="my-4 w-full" src='https://i.ibb.co/rp02hWD/syria.jpg' alt="" />
                 <h1 className="md:text-4xl text-2xl font-semibold my-5">Compassion, Integrity, and Innovation</h1>
                 <p className="md:text-lg text-base">At Donaty, our core values shape our every action. We stand by the pillars of compassion, integrity, and innovation, guiding us as we navigate the complex landscape of philanthropy and social responsibility.
-                    <ul>
-                        <li className="list-item">Compassion is the heart of our existence. It fuels our desire to alleviate suffering and drive positive change. Every action we take is embedded with empathy and the understanding that every contribution, no matter how small, holds the potential to transform lives.</li>
+                    <ul className="w-11/12 mx-auto list-disc text-justify">
+                        <li>Compassion is the heart of our existence. It fuels our desire to alleviate suffering and drive positive change. Every action we take is embedded with empathy and the understanding that every contribution, no matter how small, holds the potential to transform lives.</li>
                         <li>Integrity defines our commitment to transparency, accountability, and ethical practices. We ensure that every donation, every initiative, and every partnership is conducted with the highest standards of accountability, earning the trust of our donors, partners, and beneficiaries.
                         </li>
                         <li>Innovation fuels our quest for creative solutions. We believe in exploring new avenues, adopting innovative strategies, and leveraging technology to amplify our impact and tackle global challenges efficiently.</li>

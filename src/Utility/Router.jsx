@@ -7,6 +7,7 @@ import Login from "../Page/Login";
 import ErrorPage from "../Page/ErrorPage";
 import CardDetails from "../Page/CardDetails";
 import PrivetRoute from "../Provider/PrivetRoute";
+import Registration from "../Page/Registration";
 
 
 const Router = createBrowserRouter([
@@ -34,6 +35,10 @@ const Router = createBrowserRouter([
       {
         path: '/campaign/:id',
         element: <PrivetRoute><CardDetails /></PrivetRoute>
+      },
+      {
+        path: '/registration',
+        element: <Registration />
       }
     ]
   },
