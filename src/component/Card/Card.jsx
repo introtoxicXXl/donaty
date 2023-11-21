@@ -1,9 +1,10 @@
 import { PropTypes } from 'prop-types';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = ({ card }) => {
     const [value, setValue] = useState(0);
-    const { img, charity_name, amount, target_amount } = card;
+    const { img, charity_name, amount, target_amount,id } = card;
     const donationAmount = Math.round((value / 100) * (target_amount - amount) + amount);
 
     const handleRangeChange = (e) => {
@@ -23,7 +24,7 @@ const Card = ({ card }) => {
                 <input type="range" min={0} max="100" value={value} className="range range-info range-xs" step="25" onChange={handleRangeChange} />
                 <div className='flex justify-evenly mt-3'>
                     <button className="btn btn-sm btn-info text-white">Donate</button>
-                    <button className="btn btn-sm btn-outline btn-info">Details</button>
+                    <Link to={`/campaign/${id}`}><button className="btn btn-sm btn-outline btn-info">Details</button></Link>
                 </div>
             </div>
         </div>

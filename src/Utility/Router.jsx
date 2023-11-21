@@ -5,6 +5,7 @@ import Campaign from "../Page/Campaign";
 import AboutUs from "../Page/AboutUs";
 import Login from "../Page/Login";
 import ErrorPage from "../Page/ErrorPage";
+import CardDetails from "../Page/CardDetails";
 
 
 const Router = createBrowserRouter([
@@ -28,6 +29,10 @@ const Router = createBrowserRouter([
         {
             path:'/login',
             element:<Login/>
+        },
+        {
+          path:'/campaign/:id',
+          element:<CardDetails/>
         }
       ]
     },
