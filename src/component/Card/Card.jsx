@@ -14,7 +14,7 @@ const Card = ({ card }) => {
     return (
         <div className="flex flex-col bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl">
             <img className="object-cover w-full rounded-t-lg h-96 md:h-full md:w-48 md:rounded-none md:rounded-s-lg" src={img} alt={charity_name} />
-            <div className="flex flex-col justify-between p-4 leading-normal">
+            <div className="flex flex-col justify-between p-4 leading-normal w-full">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">{charity_name}</h5>
                 <div className='flex justify-between'>
                     <span className='font-semibold'>${donationAmount}</span>
