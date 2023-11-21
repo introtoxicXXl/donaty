@@ -12,19 +12,18 @@ const Card = ({ card }) => {
 
 
     return (
-        <div className="card bg-base-100 shadow-xl" data-aos="fade-up" data-aos-duration='800'>
-            <figure><img className='h-72 w-full' src={img} alt={charity_name} /></figure>
-            <div className="card-body">
-                <h2 className="card-title">{charity_name}</h2>
-                <div>
-                    <div className='flex justify-between'>
-                        <span className='font-semibold'>${donationAmount}</span>
-                        <span className='text-[#8A8A8A]'>${target_amount}</span>
-                    </div>
-                    <input type="range" min={0} max="100" value={value} className="range range-info range-xs" step="25" onChange={handleRangeChange} />
+        <div className="flex flex-col bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl">
+            <img className="object-cover w-full rounded-t-lg h-96 md:h-full md:w-48 md:rounded-none md:rounded-s-lg" src={img} alt={charity_name} />
+            <div className="flex flex-col justify-between p-4 leading-normal">
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">{charity_name}</h5>
+                <div className='flex justify-between'>
+                    <span className='font-semibold'>${donationAmount}</span>
+                    <span className='text-[#8A8A8A]'>${target_amount}</span>
                 </div>
-                <div className="">
-                    <button className="btn btn-info text-white">Donate Now</button>
+                <input type="range" min={0} max="100" value={value} className="range range-info range-xs" step="25" onChange={handleRangeChange} />
+                <div className='flex justify-evenly mt-3'>
+                    <button className="btn btn-sm btn-info text-white">Donate</button>
+                    <button className="btn btn-sm btn-outline btn-info">Details</button>
                 </div>
             </div>
         </div>
@@ -34,5 +33,9 @@ const Card = ({ card }) => {
 Card.propTypes = {
     card: PropTypes.object,
 };
+
+
+
+
 
 export default Card;

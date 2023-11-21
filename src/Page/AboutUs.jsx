@@ -10,10 +10,10 @@ const AboutUs = () => {
             </Helmet>
             <ImageGallery></ImageGallery>
             <div className="md:w-2/3 w-full mx-auto">
-                <h1 className="md:md:text-4xl text-2xl text-2xl font-semibold my-5">Empowering Change, Transforming Lives</h1>
-                <p className="md:md:text-lg text-base text-base">Welcome to Donaty, a beacon of hope and a catalyst for positive change. At Donaty, we believe in the power of collective action, compassion, and unwavering dedication to creating a brighter future for all. Our journey began with a simple yet profound vision: to make a tangible difference in the lives of those in need.</p>
+                <h1 className="md:md:text-4xl text-2xl font-semibold my-5">About Us</h1>
+                <p className="md:md:text-lg text-base">Welcome to Donaty, a beacon of hope and a catalyst for positive change. At Donaty, we believe in the power of collective action, compassion, and unwavering dedication to creating a brighter future for all. Our journey began with a simple yet profound vision: to make a tangible difference in the lives of those in need.</p>
                 <img className="my-4 w-full" src='https://i.ibb.co/5x252Qp/Somalia.jpg' alt="" />
-                <h1 className="md:md:text-4xl text-2xl text-2xl font-semibold my-5">Making Impact Beyond Borders</h1>
+                <h1 className="md:md:text-4xl text-2xl font-semibold my-5">Making Impact Beyond Borders</h1>
                 <p className="md:text-lg text-base">Our mission is deeply rooted in compassion, driven by the pursuit of equity, and committed to addressing pressing societal challenges. Through our unwavering commitment and collaborative efforts, we strive to extend a helping hand to communities, families, and individuals, transcending geographical boundaries.</p>
                 <img className="my-4 w-full" src='https://i.ibb.co/rp02hWD/syria.jpg' alt="" />
                 <h1 className="md:text-4xl text-2xl font-semibold my-5">Compassion, Integrity, and Innovation</h1>
@@ -30,7 +30,7 @@ const AboutUs = () => {
                 <p className="md:text-lg text-base">Over the years, Donaty has made significant strides in addressing critical issues such as education, healthcare, poverty alleviation, environmental sustainability, and more. Our impactful programs and initiatives have touched countless lives, fostering sustainable change and leaving a lasting legacy of empowerment and progress.</p>
                 <img className="my-4 w-full" src='https://i.ibb.co/wycfY8j/venezuelan.jpg' alt="" />
                 <h1 className="md:text-4xl text-2xl font-semibold my-5">Join Us on the Journey</h1>
-                <p className="md:text-lg text-base">Join us as we continue our journey towards a more equitable, compassionate, and inclusive world. Whether it's through volunteering, donations, or spreading awareness, your support makes a meaningful difference. Together, let's build a future where everyone has the opportunity to thrive.
+                <p className="md:text-lg text-base">Join us as we continue our journey towards a more equitable, compassionate, and inclusive world. Whether it is through volunteering, donations, or spreading awareness, your support makes a meaningful difference. Together, lets build a future where everyone has the opportunity to thrive.
                    <br /><br /> Thank you for being a part of the Donaty family—a force for good and a beacon of hope.</p>
             </div>
 

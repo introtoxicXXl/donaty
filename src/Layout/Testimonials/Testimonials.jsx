@@ -3,7 +3,7 @@ import Span from "../../Utility/Span";
 
 const Testimonials = () => {
     return (
-        <div className="flex justify-between mt-14 md:flex-row-reverse flex-col container mx-auto">
+        <div className="flex justify-between mt-14 md:flex-row-reverse flex-col container mx-auto overflow-hidden">
             <div className="flex justify-center items-center h-screen mx-auto" data-aos="fade-left">
                 <img className="h-3/4 grayscale w-full rounded-t-3xl" src="https://i.ibb.co/GWqxMB9/testimonial.jpg" alt="" />
             </div>
