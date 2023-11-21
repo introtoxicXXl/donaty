@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import useAuth from "../Hook/hook";
+import SocialUser from "../component/SocialUser/SocialUser";
 
 
 const Login = () => {
@@ -26,9 +27,9 @@ const Login = () => {
     return (
         <div className="hero min-h-screen">
             <Helmet><title>Login</title></Helmet>
-            <div className="hero-content flex-col lg:flex-row-reverse">
-                <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                    <form onSubmit={handleSignIn} className="card-body">
+            <div className="card">
+                <div className="card-body shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <form onSubmit={handleSignIn} className="">
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Email</span>
@@ -61,6 +62,7 @@ const Login = () => {
                         </div>
                         <p>Do not have an account? <Link to='/registration' className="hover:underline text-info">Registration</Link></p>
                     </form>
+                    <SocialUser></SocialUser>
                 </div>
             </div>
         </div>
