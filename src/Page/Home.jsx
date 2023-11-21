@@ -3,6 +3,7 @@ import Hero from "../Layout/Hero/Hero";
 import WhoWeAre from "../Layout/WhoWeAre/WhoWeAre";
 import OurCampaign from "../Layout/OurCampaign/OurCampaign";
 import Testimonials from "../Layout/Testimonials/Testimonials";
+import FAQ from "../Layout/FAQ/FAQ";
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <WhoWeAre></WhoWeAre>
             <OurCampaign></OurCampaign>
             <Testimonials></Testimonials>
+            <FAQ></FAQ>
         </div>
     );
 };

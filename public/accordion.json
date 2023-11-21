@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "question": "How much time do I need to volunteer?",
+        "answer": "The time commitment for volunteering can vary based on your availability and the specific volunteer opportunity you choose. At our charity, we offer flexible volunteering options to accommodate various schedules. Some opportunities might require a few hours a week, while others could involve more time depending on the nature of the project or program. We strive to match your availability with the needs of our initiatives, ensuring a rewarding and impactful volunteer experience. Feel free to explore our volunteer opportunities or contact our volunteer coordinator for more details on time commitments and available roles."
+    },
+    {
+        "id": 2,
+        "question": "How Will My Donation Be Used?",
+        "answer": "We prioritize transparency and accountability in how donations are utilized. We ensure that your donation directly contributes to the programs and initiatives outlined in our mission statement. Every donation received is allocated efficiently to fund essential projects, provide aid, sustain ongoing programs, or address specific needs within our community or cause.  Your support is instrumental in creating meaningful change and improving the lives of individuals and communities."
+    },
+    {
+        "id": 3,
+        "question": "How Can I Apply for a Job with You?",
+        "answer": "We appreciate your interest in joining our team to further our mission. We frequently post job openings and opportunities on our website's Careers or Jobs section. To apply for a position with us, please visit our Careers page where you can find detailed job descriptions, application instructions, and information on how to submit your application. Thank you for considering a career with us and for your interest in supporting our mission"
+    },
+    {
+        "id": 4,
+        "question": "How Can I Participate?",
+        "answer": "There are various ways to get involved and contribute to our cause. You can participate in several meaningful ways like Volunteering,Donating,Fundraising,Spreading the Word,Attending and Participating etc.For more detailed information on how you can participate or if you have specific ideas in mind, feel free to reach out to us."
+    },
+    {
+        "id": 5,
+        "question": "We Help Non-Profits Become More Effective",
+        "answer": "At our organization, we are committed to supporting and empowering non-profits to maximize their impact and effectiveness. We provide a range of resources, guidance, and collaborations aimed at enhancing the capabilities of other charitable organizations."
+    }
+]
