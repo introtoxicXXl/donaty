@@ -3,6 +3,7 @@ import './App.css'
 import NavBar from './component/NavBar/NavBar'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Footer from './Layout/Footer/Footer';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className='font-outfit'>
       <NavBar></NavBar>
       <Outlet></Outlet>
+      <Footer></Footer>
     </div>
   )
 }

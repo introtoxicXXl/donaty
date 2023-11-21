@@ -8,11 +8,11 @@ const Accordion = ({ accordion }) => {
     return (
         <div className={`collapse collapse-arrow md:w-3/4 mx-auto`} >
             <input type="radio" name="my-accordion-2" checked={check ? "checked" : ""} />
-            <div className={`collapse-title md:text-xl text-sm font-medium  ${check && 'bg-[#54D4D4] text-white shadow-xl focus:bg-white'}`} onClick={()=>setCheck(!check)}>
+            <div className={`collapse-title md:text-xl text-sm font-medium  ${check && 'shadow-xl'}`} onClick={()=>setCheck(!check)}>
                 {question}
             </div>
             <div className="collapse-content">
-                <p className='md:text-base text-xs'>{answer}</p>
+                <p className='md:text-base text-xs bg-base-200 p-3 rounded-lg'>{answer}</p>
             </div>
         </div >
     );
