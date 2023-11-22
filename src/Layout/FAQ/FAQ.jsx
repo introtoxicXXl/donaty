@@ -13,11 +13,11 @@ const FAQ = () => {
     }, [])
 
     return (
-        <div className="container mx-auto mt-14">
+        <div className="container mx-auto my-14">
             <div className="text-center space-y-6">
                 <Span text='Need Help?'></Span>
                 <h1 className="text-4xl font-semibold">The Answers to All Your Questions</h1>
-                <div className="divider divider-info w-1/12 mx-auto">*</div>
+                <div className="divider divider-info w-2/12 mx-auto">*</div>
             </div>
             <div>
                 {

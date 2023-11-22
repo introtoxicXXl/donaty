@@ -10,7 +10,7 @@ const WhoWeAre = () => {
         'Share your love for community'
     ]
     return (
-        <div className="flex justify-between container md:flex-row flex-col mx-auto mt-12 h-screen overflow-hidden">
+        <div className="flex justify-between container md:flex-row flex-col mx-auto mt-12 h-screen overflow-hidden px-3 md:px-0">
             <div className="relative basis-1/2 flex justify-center items-center">
                 <div className="lg:w-11/12 md:w-10/12 lg:block grid md:grid-cols-1 grid-cols-2 gap-2" data-aos="fade-right">
                     <img className="grayscale hover:grayscale-0 rounded-lg lg:-translate-x-6 " src="https://i.ibb.co/85B7GXS/ef759952717696387ad1468af8ab1204.jpg" alt="" />

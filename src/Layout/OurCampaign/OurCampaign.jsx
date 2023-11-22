@@ -12,10 +12,10 @@ const OurCampaign = () => {
             .then(data => setCards(data.slice(0, 6)))
     }, [])
     return (
-        <div className="container mx-auto md:space-y-8 space-y-5 mt-14 text-center">
+        <div className="container mx-auto md:space-y-8 space-y-5 mt-14 text-center px-3 lg:px-0">
             <Span text='Our Campaign'></Span>
             <h1 className="lg:text-5xl md:text-4xl text-2xl font-semibold text-center">Giving help to those who need it</h1>
-            <div className="divider divider-info w-1/12 mx-auto">*</div>
+            <div className="divider divider-info w-2/12 mx-auto">*</div>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3  mt-4">
                 {
                     cards.map(card => <Card key={card.id} card={card}></Card>)

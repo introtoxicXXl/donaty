@@ -50,7 +50,11 @@ const Registration = () => {
 
         handleSignIn(email, password)
             .then(res => {
-                swal('', `Welcome to Donaty ${name}`, 'success');
+                swal(`Welcome to Donaty ${name}`, {
+                            buttons: false,
+                            timer: 2000,
+                            className: "bg-green-200"
+                        });
                 navigate(location?.state ? location.state : '/')
                 updateUser(name, url)
                     .then(() => {

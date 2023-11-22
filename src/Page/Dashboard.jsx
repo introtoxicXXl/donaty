@@ -77,7 +77,6 @@ const Dashboard = () => {
                                 <th>Image</th>
                                 <th>Name of Charity</th>
                                 <th>Description</th>
-                                <th>Amount</th>
                                 <th>Details</th>
                             </tr>
                         </thead>
@@ -99,9 +98,6 @@ const Dashboard = () => {
                                     </td>
                                     <td>
                                         <p>{donate.charity_details.split('.')[0]}...</p>
-                                    </td>
-                                    <td>
-                                        
                                     </td>
                                     <th>
                                         <Link to={`/campaign/${donate.id}`}><button className="btn btn-ghost btn-xs">details</button></Link>
