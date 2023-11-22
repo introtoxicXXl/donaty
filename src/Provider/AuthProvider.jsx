@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import { createContext, useEffect, useState } from "react";
 import { auth } from '../Utility/firebase.config';
+import swal from 'sweetalert';
 
 export const AuthContext = createContext(null);
 const googleProvider = new GoogleAuthProvider();
@@ -40,6 +41,14 @@ const AuthProvider = ({ children }) => {
         setLoader(true);
         return signOut(auth)
     }
+    const handleDonate = (value, name) => {
+
+        if(value > donate){
+            return swal('Sorry','Insufficient Ballance','error')
+        }
+        swal('Congatuliation', `You Just Donate ${value} for ${name}`,'success');
+        setDonate(donate - value)
+    }
 
     useEffect(() => {
         const unSubscribe = onAuthStateChanged(auth, (user) => {
@@ -61,7 +70,8 @@ const AuthProvider = ({ children }) => {
         handleSignOut,
         donate,
         updateUser,
-        loader
+        loader,
+        handleDonate
     };
     return (
         <AuthContext.Provider value={authInfo}>

@@ -8,6 +8,7 @@ import ErrorPage from "../Page/ErrorPage";
 import CardDetails from "../Page/CardDetails";
 import PrivetRoute from "../Provider/PrivetRoute";
 import Registration from "../Page/Registration";
+import Dashboard from "../Page/Dashboard";
 
 
 const Router = createBrowserRouter([
@@ -39,6 +40,10 @@ const Router = createBrowserRouter([
       {
         path: '/registration',
         element: <Registration />
+      },
+      {
+        path:'/dashboard',
+        element:<Dashboard/>
       }
     ]
   },

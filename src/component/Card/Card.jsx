@@ -1,16 +1,26 @@
 import { PropTypes } from 'prop-types';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import useAuth from './../../Hook/hook';
 
 const Card = ({ card }) => {
+    const { user,handleDonate } = useAuth();
     const [value, setValue] = useState(0);
+    const navigate = useNavigate()
     const { img, charity_name, amount, target_amount, id } = card;
-    const donationAmount = Math.round((value / 100) * (target_amount - amount) + amount);
 
+
+    const donationAmount = Math.round((value / 100) * (target_amount - amount) + amount);
     const handleRangeChange = (e) => {
         setValue(parseInt(e.target.value, 10));
     };
 
+    const handleMoney = (value,name) => {
+        if (!user) {
+            navigate('/login');
+        }
+        handleDonate(value,name)
+    }
 
     return (
         <div className="flex flex-col bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl">
@@ -30,7 +40,7 @@ const Card = ({ card }) => {
                     onChange={handleRangeChange}
                 />
                 <div className='flex justify-evenly mt-3'>
-                    <button className="btn btn-sm btn-info text-white">Donate</button>
+                    <button className="btn btn-sm btn-info text-white" onClick={() => handleMoney(donationAmount,charity_name)}>Donate</button>
                     <Link to={`/campaign/${id}`}><button className="btn btn-sm btn-outline btn-info">Details</button></Link>
                 </div>
             </div>

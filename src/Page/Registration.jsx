@@ -13,7 +13,6 @@ const Registration = () => {
     const location = useLocation();
     const navigate = useNavigate();
 
-
     const handleRegistration = e => {
         e.preventDefault();
         const name = e.target.name.value;
@@ -39,7 +38,7 @@ const Registration = () => {
 
         handleSignIn(email, password)
             .then(res => {
-                
+                swal('', `Welcome to Donaty ${name}`, 'success');
                 navigate(location?.state ? location.state : '/')
                 updateUser(name, url)
                     .then(() => {
