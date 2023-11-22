@@ -60,7 +60,7 @@ const AuthProvider = ({ children }) => {
 
     // handle add amount 
     const handleAddAmount = (taka) => {
-        setDonate(donate+taka)
+        setDonate(donate + taka)
     }
 
     useEffect(() => {

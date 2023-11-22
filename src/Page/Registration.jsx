@@ -51,22 +51,22 @@ const Registration = () => {
         handleSignIn(email, password)
             .then(res => {
                 swal(`Welcome to Donaty ${name}`, {
-                            buttons: false,
-                            timer: 2000,
-                            className: "bg-green-200"
-                        });
+                    buttons: false,
+                    timer: 2000,
+                    className: "bg-green-200"
+                });
                 navigate(location?.state ? location.state : '/')
-                updateUser(name, url)
-                    .then(() => {
+            })
+            .catch(err => {
+                swal('Opps', `${err.message}`, {
+                    buttons: false,
+                    timer: 2000,
+                    className: "bg-red-200"
+                });
+            })
+        updateUser(name, url)
+            .then(() => {
 
-                    })
-                    .catch(err => {
-                        swal('Opps', `${err.message}`, {
-                            buttons: false,
-                            timer: 2000,
-                            className: "bg-red-200"
-                        });
-                    })
             })
             .catch(err => {
                 swal('Opps', `${err.message}`, {
@@ -76,7 +76,7 @@ const Registration = () => {
                 });
             })
     }
-    
+
 
 
     return (
