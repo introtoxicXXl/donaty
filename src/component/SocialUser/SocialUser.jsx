@@ -12,11 +12,19 @@ const SocialUser = () => {
     const handleSocialSignIn = (media) => {
         media()
             .then(res => {
-                swal('', `Welcome to Donaty ${res.user.displayName}`, 'success');
+                swal(`Welcome to Donaty ${res.user.displayName}`, {
+                    buttons: false,
+                    timer: 2000,
+                    className: "bg-green-200"
+                });
                 navigate(location?.state ? location.state : '/')
             })
             .catch(err => {
-                swal ( `${err.status}` ,  `${err.message}` ,  "error" )
+                swal(`${err.status}`, `${err.message}`, {
+                    buttons: false,
+                    timer: 2000,
+                    className: "bg-red-200"
+                });
             })
     }
 

@@ -22,16 +22,28 @@ const Registration = () => {
 
 
         if (password.length < 6) {
-            swal('Opps', 'Password Must Be 6 Character', 'error');
+            swal('Password Must Be 6 Character', {
+                buttons: false,
+                timer: 2000,
+                className: "bg-red-200"
+            });
             return;
         }
 
         if (!/[A-Z]/.test(password)) {
-            swal('Opps', 'Password Must Be Minimum 1 Capital Letter', 'error');
+            swal('Password Must Be Minimum 1 Capital Letter', {
+                buttons: false,
+                timer: 2000,
+                className: "bg-red-200"
+            });
             return;
         }
         if (!/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(password)) {
-            swal('Opps', 'Password Must Be 1 Special Character', 'error');
+            swal('Password Must Be 1 Special Character', {
+                buttons: false,
+                timer: 2000,
+                className: "bg-red-200"
+            });
             return;
         }
 
@@ -45,13 +57,22 @@ const Registration = () => {
 
                     })
                     .catch(err => {
-                        swal('Opps', `${err.message}`, 'error');
+                        swal('Opps', `${err.message}`, {
+                            buttons: false,
+                            timer: 2000,
+                            className: "bg-red-200"
+                        });
                     })
             })
             .catch(err => {
-                swal('Opps', `${err.message}`, 'error');
+                swal('Opps', `${err.message}`, {
+                    buttons: false,
+                    timer: 2000,
+                    className: "bg-red-200"
+                });
             })
     }
+    
 
 
     return (

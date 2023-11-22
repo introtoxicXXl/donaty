@@ -25,18 +25,34 @@ const Login = () => {
         handleLogin(email, password)
             .then(res => {
                 navigate(location?.state ? location.state : '/')
-                swal('', `Welcome Back to Donaty ${res.user.displayName}`, 'success');
+                swal(`Welcome Back to Donaty ${res.user.displayName}`, {
+                    buttons: false,
+                    timer: 2000,
+                    className:"bg-green-200"
+                });
             })
             .catch(error => {
                 const errorMessage = error.message;
                 if (errorMessage === 'auth/user-not-found') {
-                    swal('Oops', 'User not found with provided email', 'error');
+                    swal('User not found with provided email', {
+                        buttons: false,
+                        timer: 2000,
+                        className:"bg-red-200"
+                    });
 
                 } else if (errorMessage === 'auth/wrong-password') {
-                    swal('Oops', 'Incorrect password', 'error');
+                    swal('Incorrect password', {
+                        buttons: false,
+                        timer: 2000,
+                        className:"bg-red-200"
+                    });
 
                 } else {
-                    swal('Oops', ` Your Email or Password is Incorrect`, 'error');
+                    swal('Your Email or Password is Incorrect', {
+                        buttons: false,
+                        timer: 2000,
+                        className:"bg-red-200"
+                    });
 
                 }
             })

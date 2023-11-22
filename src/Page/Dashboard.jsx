@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import useAuth from "../Hook/hook";
 import { getItem } from "../Utility/localStorage";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 
 const Dashboard = () => {
@@ -29,6 +30,9 @@ const Dashboard = () => {
 
     return (
         <div>
+        <Helmet>
+            <title>Dashboard</title>
+        </Helmet>
             <div>
                 <div className="hero bg-base-200">
                     <div className="hero-content flex-col lg:flex-row">
