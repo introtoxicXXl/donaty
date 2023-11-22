@@ -1,27 +1,33 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import useAuth from "../Hook/hook";
 
 
 const CardDetails = () => {
-    const id = useParams();
+    const { handleDonate } = useAuth();
+    const idx = useParams();
     const [value, setValue] = useState(0);
     const [detail, setDetail] = useState({});
-    const { country, amount, target_amount, img, charity_name, charity_details, additional_topic, additional_details } = detail;
+    const { country, amount, target_amount, img, charity_name, charity_details, additional_topic, additional_details, id } = detail;
     useEffect(() => {
         fetch('/charity.json')
             .then(res => res.json())
             .then(data => {
-                const selectedDetail = data.find(item => item.id === parseInt(id.id));
+                const selectedDetail = data.find(item => item.id === parseInt(idx.id));
                 setDetail(selectedDetail);
             }
             )
-    }, [id])
+    }, [idx])
 
     const donationAmount = Math.round((value / 100) * (target_amount - amount) + amount);
 
     const handleRangeChange = (e) => {
         setValue(parseInt(e.target.value, 10));
     };
+
+    const handleMoney = (value, name, idx) => {
+        handleDonate(value, name, idx)
+    }
     return (
         <div className="hero min-h-screen">
             <div>
@@ -47,7 +53,7 @@ const CardDetails = () => {
                                 />
                             </div>
                         </div>
-                        <button className="btn md:btn-md btn-sm btn-info text-white mt-4">Donate</button>
+                        <button className="btn md:btn-md btn-sm btn-info text-white mt-4" onClick={() => handleMoney(donationAmount, charity_name, id)}>Donate</button>
                     </div>
                 </div>
                 <div className="space-y-3 container mx-auto mt-10">

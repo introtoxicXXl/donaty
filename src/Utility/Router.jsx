@@ -42,8 +42,8 @@ const Router = createBrowserRouter([
         element: <Registration />
       },
       {
-        path:'/dashboard',
-        element:<Dashboard/>
+        path: '/dashboard',
+        element: <PrivetRoute><Dashboard /></PrivetRoute>
       }
     ]
   },

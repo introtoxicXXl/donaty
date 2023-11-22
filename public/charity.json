@@ -2,7 +2,7 @@
     {
         "id": 1,
         "country": "Syria",
-        "amount": 1100,
+        "amount": 0,
         "target_amount":10600,
         "img": "https://i.ibb.co/rp02hWD/syria.jpg",
         "charity_name": "Relief for Syria",
@@ -13,7 +13,7 @@
     {
         "id": 2,
         "country": "Yemen",
-        "amount": 700,
+        "amount": 0,
         "target_amount":12500,
         "img": "https://i.ibb.co/V93gM1g/yemen.jpg",
         "charity_name": "Yemen Aid Foundation",
@@ -24,7 +24,7 @@
     {
         "id": 3,
         "country": "Afghanistan",
-        "amount": 600,
+        "amount": 0,
         "target_amount":15000,
         "img": "https://i.ibb.co/vjX8s8j/afghanistan.jpg",
         "charity_name": "Hope for Afghanistan",
@@ -35,7 +35,7 @@
     {
         "id": 4,
         "country": "Somalia",
-        "amount": 500,
+        "amount": 0,
         "target_amount":10600,
         "img": "https://i.ibb.co/5x252Qp/Somalia.jpg",
         "charity_name": "Somalia Relief Initiative",
@@ -46,7 +46,7 @@
     {
         "id": 5,
         "country": "South Sudan",
-        "amount": 550,
+        "amount": 0,
         "target_amount":16200,
         "img": "https://i.ibb.co/qkqgVMq/jeshamer2.webp",
         "charity_name": "South Sudan Hope Foundation",
@@ -57,7 +57,7 @@
     {
         "id": 6,
         "country": "Venezuela",
-        "amount": 580,
+        "amount": 0,
         "target_amount":10000,
         "img": "https://i.ibb.co/wycfY8j/venezuelan.jpg",
         "charity_name": "Aid for Venezuela",
@@ -68,7 +68,7 @@
     {
         "id": 7,
         "country": "Myanmar",
-        "amount": 510,
+        "amount": 0,
         "target_amount":13600,
         "img": "https://i.ibb.co/sjQ5F2n/myanmar.jpg",
         "charity_name": "Myanmar Relief Foundation",
@@ -79,7 +79,7 @@
     {
         "id": 8,
         "country": "Iraq",
-        "amount": 820,
+        "amount": 0,
         "target_amount":10600,
         "img": "https://i.ibb.co/NrxS5r8/iraq.webp",
         "charity_name": "Iraq Humanitarian Aid",
@@ -90,7 +90,7 @@
     {
         "id": 9,
         "country": "Haiti",
-        "amount": 490,
+        "amount": 0,
         "target_amount":18200,
         "img": "https://i.ibb.co/Y0217cC/haiti.jpg",
         "charity_name": "Hope for Haiti",
@@ -101,7 +101,7 @@
     {
         "id": 10,
         "country": "Nigeria",
-        "amount": 530,
+        "amount": 0,
         "target_amount":20600,
         "img": "https://i.ibb.co/N7x4q9F/nijeria.jpg",
         "charity_name": "Nigeria Relief Fund",

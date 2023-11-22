@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import useAuth from './../../Hook/hook';
 
 const Card = ({ card }) => {
-    const { user,handleDonate } = useAuth();
+    const { user, handleDonate } = useAuth();
     const [value, setValue] = useState(0);
     const navigate = useNavigate()
     const { img, charity_name, amount, target_amount, id } = card;
@@ -15,11 +15,11 @@ const Card = ({ card }) => {
         setValue(parseInt(e.target.value, 10));
     };
 
-    const handleMoney = (value,name) => {
+    const handleMoney = (value, name, id) => {
         if (!user) {
-            navigate('/login');
+           return navigate('/login');
         }
-        handleDonate(value,name)
+        handleDonate(value, name, id)
     }
 
     return (
@@ -40,7 +40,7 @@ const Card = ({ card }) => {
                     onChange={handleRangeChange}
                 />
                 <div className='flex justify-evenly mt-3'>
-                    <button className="btn btn-sm btn-info text-white" onClick={() => handleMoney(donationAmount,charity_name)}>Donate</button>
+                    <button className="btn btn-sm btn-info text-white" onClick={() => handleMoney(donationAmount, charity_name, id)}>Donate</button>
                     <Link to={`/campaign/${id}`}><button className="btn btn-sm btn-outline btn-info">Details</button></Link>
                 </div>
             </div>
