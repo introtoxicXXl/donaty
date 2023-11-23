@@ -1,4 +1,4 @@
-### [Live Link](https://donaty-31046.web.app/)
+# [Donaty](https://donaty-31046.web.app/)
 
 ## Feature of this project
 
