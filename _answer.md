@@ -1,47 +1,130 @@
-### Answer to the ques no 1
-* let greeting;
-greetign = {};
-console.log(greetign); *
-Answer is A {}
-Explain - the variable greeting is assigned an empty object {}, and console.log(greeting) will output an empty object {} to the console.
+<div align="center">
+  <img height="60" src="https://edurev.gumlet.io/AllImages/original/ApplicationImages/CourseImages/944e5d47-8c55-4a89-91e5-22ab5f2798fc_CI.png">
+  <h1>MCQ TEST</h1>
+</div>
 
-### Answer to question no 2 
-* function sum(a, b) {
+###### 1. Write the `correct answer` from the following options and give an explanation (2-5 lines).
+
+```javascript
+let greeting;
+greetign = {};
+console.log(greetign);
+```
+
+- A: `{}`
+- B: `ReferenceError: greetign is not defined`
+- C: `undefined`
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: A
+
+<i>Write your explanation here</i>
+The variable greeting is assigned an empty object {}, and console.log(greeting) will output an empty object {} to the console.
+</p>
+</details>
+
+###### 2. Write the `correct answer` from the following options and give an explanation (2-5 lines).
+
+```javascript
+function sum(a, b) {
   return a + b;
 }
-sum(1, "2"); *
-Answer is C '12'
-Explain - in this case, "2" is a string, and when it's concatenated with the number 1.Since one operand is a string, JavaScript converts 1 to a string and performs string concatenation, resulting in the string "12".
 
-## Answer to the question no 3
-* const food = ["🍕", "🍫", "🥑", "🍔"];
+sum(1, "2");
+```
+
+- A: `NaN`
+- B: `TypeError`
+- C: `"12"`
+- D: `3`
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: C
+
+<i>Write your explanation here</i>
+ In this case, "2" is a string, and when it's concatenated with the number 1. Since one operand is a string, JavaScript converts 1 to a string and performs string concatenation, resulting in the string "12".
+</p>
+</details>
+
+###### 3. Write the `correct answer` from the following options and give an explanation (2-5 lines).
+
+```javascript
+const food = ["🍕", "🍫", "🥑", "🍔"];
 const info = { favoriteFood: food[0] };
 
 info.favoriteFood = "🍝";
 
-console.log(food); *
+console.log(food);
+```
 
-Answer is A ['🍕', '🍫', '🥑', '🍔']
-Explain - when the value of info assign. favorite food to another emoji ("🍝"), it doesn't change the original array of food. The favoriteFood property of the info object is updated to hold the new emoji ("🍝"), but it doesn't affect the food array because food and info.favoriteFood are separate variables.
+- A: `['🍕', '🍫', '🥑', '🍔']`
+- B: `['🍝', '🍫', '🥑', '🍔']`
+- C: `['🍝', '🍕', '🍫', '🥑', '🍔']`
+- D: `ReferenceError`
 
-## Answer to question no 4
+<details><summary><b>Answer</b></summary>
+<p>
 
-* function sayHi(name) {
+#### Answer: A
+
+<i>Write your explanation here</i>
+When the value of info is assigned. favorite food to another emoji ("🍝"), it doesn't change the original array of food. The favoriteFood property of the info object is updated to hold the new emoji ("🍝"), but it doesn't affect the food array because food and info.favoriteFood are separate variables.
+</p>
+</details>
+
+###### 4. Write the `correct answer` from the following options and give an explanation (2-5 lines).
+
+```javascript
+function sayHi(name) {
   return `Hi there, ${name}`;
 }
-console.log(sayHi()); *
 
-Answer is B Hi there, undefined
-Explain - the function sayHi receives a name parameter, but when it call sayHi() without providing an argument, it will result in undefined.
+console.log(sayHi());
+```
 
-### Answer to the question no 5 
-* let count = 0;
+- A: `Hi there,`
+- B: `Hi there, undefined`
+- C: `Hi there, null`
+- D: `ReferenceError`
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: B
+
+<i>Write your explanation here</i>
+The function sayHi receives a name parameter, but when it call sayHi() without providing an argument, it will result in undefined.
+</p>
+</details>
+
+###### 5. Write the `correct answer` from the following options and give an explanation (2-5 lines).
+
+```javascript
+let count = 0;
 const nums = [0, 1, 2, 3];
 
 nums.forEach((num) => {
   if (num) count += 1;
 });
 
-console.log(count); *
-Answer is A 1
-Explain - the if condition checks if the current num is truthy. It means it checks if the num is not equal to 0. So, the condition increments the count variable only when num is not zero.In the nums array, there is only one element that is not equal to 0 which is 1, so the count will be 1. The output of console.log(count) will be 1.
+console.log(count);
+```
+
+- A: 1
+- B: 2
+- C: 3
+- D: 4
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: A
+
+<i>Write your explanation here</i>
+the if condition checks if the current num is truthy. It means it checks if the num is not equal to 0. So, the condition increments the count variable only when num is not zero.In the nums array, there is only one element that is not equal to 0 which is 1, so the count will be 1. The output of console.log(count) will be 1.
+</p>
+</details>
