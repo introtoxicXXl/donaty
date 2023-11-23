@@ -20,8 +20,8 @@ console.log(greetign);
 
 #### Answer: A
 
-<i>Write your explanation here</i>
-The variable greeting is assigned an empty object {}, and console.log(greeting) will output an empty object {} to the console.
+<i>The variable greeting is assigned an empty object {}, and console.log(greeting) will output an empty object {} to the console.</i>
+
 </p>
 </details>
 
@@ -45,8 +45,8 @@ sum(1, "2");
 
 #### Answer: C
 
-<i>Write your explanation here</i>
- In this case, "2" is a string, and when it's concatenated with the number 1. Since one operand is a string, JavaScript converts 1 to a string and performs string concatenation, resulting in the string "12".
+<i>In this case, "2" is a string, and when it's concatenated with the number 1. Since one operand is a string, JavaScript converts 1 to a string and performs string concatenation, resulting in the string "12".</i>
+
 </p>
 </details>
 
@@ -71,8 +71,8 @@ console.log(food);
 
 #### Answer: A
 
-<i>Write your explanation here</i>
-When the value of info is assigned. favorite food to another emoji ("🍝"), it doesn't change the original array of food. The favoriteFood property of the info object is updated to hold the new emoji ("🍝"), but it doesn't affect the food array because food and info.favoriteFood are separate variables.
+<i>When the value of info is assigned. favorite food to another emoji ("🍝"), it doesn't change the original array of food. The favoriteFood property of the info object is updated to hold the new emoji ("🍝"), but it doesn't affect the food array because food and info.favoriteFood are separate variables.</i>
+
 </p>
 </details>
 
@@ -96,8 +96,8 @@ console.log(sayHi());
 
 #### Answer: B
 
-<i>Write your explanation here</i>
-The function sayHi receives a name parameter, but when it call sayHi() without providing an argument, it will result in undefined.
+<i>The function sayHi receives a name parameter, but when it call sayHi() without providing an argument, it will result in undefined.</i>
+
 </p>
 </details>
 
@@ -124,7 +124,7 @@ console.log(count);
 
 #### Answer: A
 
-<i>Write your explanation here</i>
-the if condition checks if the current num is truthy. It means it checks if the num is not equal to 0. So, the condition increments the count variable only when num is not zero.In the nums array, there is only one element that is not equal to 0 which is 1, so the count will be 1. The output of console.log(count) will be 1.
+<i>The if condition checks if the current num is truthy. It means it checks if the num is not equal to 0. So, the condition increments the count variable only when num is not zero.In the nums array, there is only one element that is not equal to 0 which is 1, so the count will be 1. The output of console.log(count) will be 1.</i>
+
 </p>
 </details>
