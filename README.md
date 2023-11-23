@@ -1,8 +1,14 @@
-# React + Vite
+# [Donaty](https://donaty-31046.web.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Feature of this project
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* This is a single-page application. that's why for routing I used React Router
+* For Styling i use Tailwind css
+* For ui i use daisyUI
+* For dynamic title I use react helmet
+* For icons I used react icon
+* For Slider I used swiperJs
+* For the responsive navbar I used framer motion
+* For authentication I used Firebase
+* In authentication I implement email password authentication and Google authentication 
+* For hosting I used Firebase hosting
