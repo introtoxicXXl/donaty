@@ -3,7 +3,7 @@ import useAuth from "../../Hook/hook";
 import swal from "sweetalert";
 
 const NavProfile = () => {
-    const { user, handleSignOut, donate,handleAddAmount } = useAuth();
+    const { user, handleSignOut, donate, handleAddAmount } = useAuth();
     const name = user.email.split('')[0].toUpperCase();
 
     const handleLogOut = () => {
@@ -17,21 +17,21 @@ const NavProfile = () => {
     }
     const handleAddMoney = () => {
         swal({
-          content: {
-            element: "input",
-            attributes: {
-              placeholder: "Input Your Amount",
-              type: "number",
+            content: {
+                element: "input",
+                attributes: {
+                    placeholder: "Add Your Money",
+                    type: "number",
+                },
             },
-          },
         })
-        .then((value) => {
-          if (value) {
-            handleAddAmount(parseInt(value))
-          }
-        });
-      };
-      
+            .then((value) => {
+                if (value) {
+                    handleAddAmount(parseInt(value))
+                }
+            });
+    };
+
 
     return (
         <div className="dropdown dropdown-end z-20">

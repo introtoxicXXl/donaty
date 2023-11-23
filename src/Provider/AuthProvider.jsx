@@ -60,6 +60,14 @@ const AuthProvider = ({ children }) => {
 
     // handle add amount 
     const handleAddAmount = (taka) => {
+        if (taka < 0) {
+            swal('Amount must be up to 0', {
+                buttons: false,
+                timer: 2000,
+                className: "bg-red-200"
+            });
+            return;
+        }
         setDonate(donate + taka)
     }
 
